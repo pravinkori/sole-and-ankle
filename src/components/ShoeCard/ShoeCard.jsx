@@ -61,11 +61,11 @@ const ImageWrapper = styled.div`
   position: relative;
 `;
 
-const Image = styled.img``;
-
-const Row = styled.div`
-  font-size: 1rem;
+const Image = styled.img`
+  width: 100%;
 `;
+
+const Row = styled.div``;
 
 const Name = styled.h3`
   font-weight: ${WEIGHTS.medium};
